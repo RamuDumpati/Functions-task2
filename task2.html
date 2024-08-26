@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        // 1
+        function greet(){
+            console.log('Hello World!');
+        }
+        greet()
+
+        // 2
+        function addNumbers(a,b){
+          console.log(a+b)
+        }
+       addNumbers(2,3)
+       addNumbers(21,31)
+       addNumbers(100,300)
+
+    //    3.
+    function multiply(x,y){
+        return x*y
+    }
+    let mul=multiply(3,3)
+    console.log(mul)
+
+    // 4.
+    function calculateRectangleArea(length,width){
+        
+          return  multiply(length,width)
+        
+    }
+    let area=calculateRectangleArea(5,10)
+    console.log('area of rectangle is',area)
+    // console.log(calculateRectangleArea(5,5))
+
+    // 5.
+    function greetuser(name='guest',age=24){
+            console.log('hello '+name +' ' +'age is '+age)
+    }
+    greetuser('ramu')
+    greetuser()
+    greetuser(name,20)
+
+    </script>
+</body>
+</html>
